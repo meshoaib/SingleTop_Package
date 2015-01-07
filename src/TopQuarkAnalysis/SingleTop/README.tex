@@ -1,0 +1,32 @@
+##Single-top package:
+
+#Practical info:
+
+#1) To compile the package:
+
+source singleTop_5_3_11.csh
+
+#To run a test file, by default it takes as input a MC file on lxplus
+#(configure it to take your custom input if on a different machine ):
+
+nohup cmsRun SingleTopSkim_TChannel_cfg.py
+
+#This file contains several switches:
+
+#In case it's data or MC:
+isData = False
+
+#Use PF electrons or Gsf,vPFId-ed gsf electrons.
+doGsfElectrons = False
+#Default: False
+
+#Add skimming cut:
+addJetsCut = True
+
+#Run JetMET uncertainties from the JetMET tool or by hand: 
+doRunMETUncertainties = False
+
+#Whether or not add taus in the event. True: adds a tau collection, False, adds taus to the jets. 
+EnablePFTaus = False
+#Default: False for tH, True for single-top
+

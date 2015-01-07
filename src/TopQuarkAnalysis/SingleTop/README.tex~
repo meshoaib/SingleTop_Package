@@ -1,0 +1,14 @@
+##Single-top package:
+
+#Practical info:
+
+#1) To compile the package:
+
+source singleTop_5_3_11.csh
+
+#To run a test file on MC:
+
+nohup cmsRun SingleTopSkim_TChannel_cfg.py
+
+#This file contains several switches:
+

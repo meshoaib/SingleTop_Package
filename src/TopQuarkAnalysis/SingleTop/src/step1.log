@@ -1,0 +1,30 @@
+Reading cached build data
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:97: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlots1DKarlsruhe.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:108: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlotsTestMC.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:119: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/plots1DValidation.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:130: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlots1D.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:141: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlotsPDFs1D.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:152: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/Plotter.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:163: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/2DLikelihoodTreeMaker.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:174: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/Subtractor.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:185: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlots2DSFLikelihoodSummerDataDriven.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Creating project symlinks
+>> Entering Package DataFormats/METReco
+>> Entering Package TopQuarkAnalysis/SingleTop
+>> Entering Package DataFormats/PatCandidates
+>> Entering Package RecoEgamma/EgammaTools
+>> Compiling edm plugin /shome/decosa/cmssw/skimSingleTop/CMSSW_5_3_11/src/TopQuarkAnalysis/SingleTop/src/SingleTopElectronProducer.cc 
+>> Compiling edm plugin /shome/decosa/cmssw/skimSingleTop/CMSSW_5_3_11/src/TopQuarkAnalysis/SingleTop/src/SingleTopUnclusteredMETProducer.cc 
+>> Compiling edm plugin /shome/decosa/cmssw/skimSingleTop/CMSSW_5_3_11/src/TopQuarkAnalysis/SingleTop/src/SingleTopVertexFilter.cc 
+>> Compiling edm plugin /shome/decosa/cmssw/skimSingleTop/CMSSW_5_3_11/src/TopQuarkAnalysis/SingleTop/src/SingleTopVertexInfoDumper.cc 
+>> Compiling capabilities tmp/slc5_amd64_gcc462/src/DataFormats/PatCandidates/src/DataFormatsPatCandidates/a/xi.cc 
+>> Building shared library tmp/slc5_amd64_gcc462/src/DataFormats/PatCandidates/src/DataFormatsPatCandidates/libDataFormatsPatCandidates.so
+/shome/decosa/cmssw/skimSingleTop/CMSSW_5_3_11/src/TopQuarkAnalysis/SingleTop/src/SingleTopElectronProducer.cc:60:72: fatal error: EGamma/EGammaAnalysisTools/interface/ElectronEffectiveArea.h: No such file or directory
+compilation terminated.
+/shome/decosa/cmssw/skimSingleTop/CMSSW_5_3_11/src/TopQuarkAnalysis/SingleTop/src/SingleTopElectronProducer.cc:60:72: fatal error: EGamma/EGammaAnalysisTools/interface/ElectronEffectiveArea.h: No such file or directory
+compilation terminated.
+gmake: *** [tmp/slc5_amd64_gcc462/src/TopQuarkAnalysis/SingleTop/src/TopQuarkAnalysisSingleTop/SingleTopElectronProducer.o] Error 1
+gmake: *** Waiting for unfinished jobs....
+Copying tmp/slc5_amd64_gcc462/src/DataFormats/PatCandidates/src/DataFormatsPatCandidates/libDataFormatsPatCandidates.so to productstore area:

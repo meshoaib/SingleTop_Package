@@ -1,0 +1,44 @@
+Reading cached build data
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:639: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlots1DKarlsruhe.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:650: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlotsTestMC.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:661: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/plots1DValidation.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:672: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlots1D.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:683: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlotsPDFs1D.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:694: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/Plotter.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:705: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/2DLikelihoodTreeMaker.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:716: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/Subtractor.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:727: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlots2DSFLikelihoodSummerDataDriven.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Entering Package TopQuarkAnalysis/SingleTop
+>> Creating project symlinks
+>> Entering Package DataFormats/METReco
+>> Entering Package DataFormats/PatCandidates
+>> Entering Package EgammaAnalysis/ElectronTools
+>> Entering Package RecoEgamma/EgammaTools
+>> Compiling edm plugin /afs/cern.ch/work/o/oiorio/CMSSW_5_3_11/src/TopQuarkAnalysis/SingleTop/src/SingleTopMETsProducer.cc 
+>> Building edm plugin tmp/slc5_amd64_gcc462/src/TopQuarkAnalysis/SingleTop/src/TopQuarkAnalysisSingleTop/libTopQuarkAnalysisSingleTop.so
+@@@@ Running edmWriteConfigs for TopQuarkAnalysisSingleTop
+--- Registered EDM Plugin: TopQuarkAnalysisSingleTop
+>> Leaving Package TopQuarkAnalysis/SingleTop
+>> Package TopQuarkAnalysis/SingleTop built
+gmake[1]: Entering directory `/afs/cern.ch/work/o/oiorio/CMSSW_5_3_11'
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:639: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlots1DKarlsruhe.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:650: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlotsTestMC.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:661: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/plots1DValidation.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:672: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlots1D.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:683: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlotsPDFs1D.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:694: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/Plotter.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:705: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/2DLikelihoodTreeMaker.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:716: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/Subtractor.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+tmp/slc5_amd64_gcc462/MakeData/DirCache.mk:727: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/fitsPlots2DSFLikelihoodSummerDataDriven.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Creating project symlinks
+@@@@ Refreshing Plugins:edmPluginRefresh
+>> Done python_symlink
+>> Compiling python modules python
+>> Compiling python modules src/TopQuarkAnalysis/SingleTop/python
+>> All python modules compiled
+>> Pluging of all type refreshed.
+gmake[1]: Leaving directory `/afs/cern.ch/work/o/oiorio/CMSSW_5_3_11'

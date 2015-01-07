@@ -1,0 +1,27 @@
+
+[CRAB]
+jobtype                    =  cmssw
+scheduler                  =  remoteGlidein
+                          
+[CMSSW]                   
+datasetpath                =  /TToBLNuHTo2B_t-channel-NC_8TeV-madgraph-tauola_LHEv3/dknowlto-TToBLNuHTo2B_t-channel-NC_8TeV-madgraph-tauola_AODSIMv3-836fdeb709619a3677b02c7f682694c9/USER
+dbs_url                    =  http://cmsdbsprod.cern.ch/cms_dbs_ph_analysis_02/servlet/DBSServlet
+
+pset                       =  SingleTopSkim_TChannel_cfg.py
+events_per_job             =  1000
+total_number_of_events     = -1
+get_edm_output             =  1
+# dbs_url                  =  http://cmsdbsprod.cern.ch/cms_dbs_ph_analysis_01/servlet/DBSServlet
+
+                                                    
+[USER]
+return_data                = 0                 
+copy_data                  = 1
+storage_element            = T2_CH_CSCS
+#storage_path            = /srm/managerv2?SFN=/pnfs/lcg.cscs.ch/cms/trivcat/store/user/decosa/
+user_remote_dir          = TToBLNuHTo2B_t-channel
+publish_data               = 0
+
+
+
+        

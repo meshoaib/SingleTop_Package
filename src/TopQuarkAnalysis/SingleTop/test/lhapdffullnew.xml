@@ -1,0 +1,11 @@
+<tool name="lhapdffull" version="5.8.5-cms3">
+  <lib name="LHAPDF"/>
+  <client>
+    <environment name="LHAPDFFULL_BASE" default="/afs/cern.ch/cms/slc5_amd64_gcc434/external/lhapdf/5.8.5-cms3"/>
+    <environment name="LIBDIR" default="$LHAPDFFULL_BASE/full/lib"/>
+    <environment name="INCLUDE" default="$LHAPDFFULL_BASE/include"/>
+    <environment name="LHAPATH" default="$LHAPDFFULL_BASE/share/lhapdf/PDFsets"/>
+  </client>
+  <runtime name="LHAPATH" value="$LHAPDFFULL_BASE/share/lhapdf/PDFsets" type="path"/>
+  <use name="f77compiler"/>
+</tool>

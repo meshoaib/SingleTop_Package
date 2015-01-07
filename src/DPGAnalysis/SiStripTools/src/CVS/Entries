@@ -1,0 +1,19 @@
+/APVCyclePhaseCollection.cc/1.5/Mon May 14 15:21:53 2012//TV00-11-17
+/DetIdSelector.cc/1.2/Mon Mar 26 17:07:35 2012//TV00-11-17
+/DigiBXCorrHistogramMaker.cc/1.1/Thu Mar 10 16:15:13 2011//TV00-11-17
+/DigiCollectionProfiler.cc/1.1/Sun Oct  2 16:58:34 2011//TV00-11-17
+/DigiInvestigatorHistogramMaker.cc/1.4/Thu Jul 19 07:53:06 2012//TV00-11-17
+/DigiLumiCorrHistogramMaker.cc/1.6/Thu Jul 19 09:16:44 2012//TV00-11-17
+/DigiPileupCorrHistogramMaker.cc/1.1/Sat Nov 26 00:37:35 2011//TV00-11-17
+/DigiVertexCorrHistogramMaker.cc/1.8/Thu Jul 19 09:16:44 2012//TV00-11-17
+/EventShape.cc/1.2/Sat Jan 28 09:40:08 2012//TV00-11-17
+/EventWithHistory.cc/1.5/Wed Sep  9 14:09:06 2009//TV00-11-17
+/EventWithHistoryFilter.cc/1.11/Tue Oct 25 21:24:43 2011//TV00-11-17
+/Multiplicities.cc/1.2/Mon Oct  8 15:54:55 2012//TV00-11-17
+/MultiplicityCorrelatorHistogramMaker.cc/1.4/Mon Mar 26 17:02:20 2012//TV00-11-17
+/RunHistogramManager.cc/1.4/Sun Dec 11 09:54:30 2011//TV00-11-17
+/SiStripTKNumbers.cc/1.1/Thu Mar 10 16:15:13 2011//TV00-11-17
+/TinyEvent.cc/1.1/Mon Jul 20 16:07:00 2009//TV00-11-17
+/classes.h/1.5/Thu Oct  4 17:08:38 2012//TV00-11-17
+/classes_def.xml/1.5/Thu Oct  4 17:08:38 2012//TV00-11-17
+D

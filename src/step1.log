@@ -1,0 +1,47 @@
+Reading cached build data
+tmp/slc6_amd64_gcc472/MakeData/DirCache.mk:628: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/03-tmva-train.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+tmp/slc6_amd64_gcc472/MakeData/DirCache.mk:628: No such file exists: src/TopQuarkAnalysis/SingleTop/bin/03-tmva-train.cpp. Please fix src/TopQuarkAnalysis/SingleTop/bin/BuildFile.
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Building CMSSW version CMSSW_5_3_11 ----
+------- copying files from src/PhysicsTools/PatAlgos/scripts -------
+>> copied patReplaceFast.pl
+>> copied patReplaceGenerator.sh
+>> copied patReplaceParser.pl
+>> Entering Package RecoBTau/JetTagComputer
+>> Creating project symlinks
+>> Entering Package DPGAnalysis/SiStripTools
+>> Entering Package PhysicsTools/PatAlgos
+>> Entering Package DataFormats/METReco
+>> Entering Package DataFormats/PatCandidates
+>> Entering Package PhysicsTools/PatUtils
+>> Entering Package RecoEgamma/EgammaTools
+>> Entering Package JetMETCorrections/Type1MET
+>> Entering Package CMGTools/External
+>> Entering Package RecoMET/METAnalyzers
+>> Entering Package RecoParticleFlow/PFProducer
+>> Entering Package TopQuarkAnalysis/SingleTop
+>> Entering Package EgammaAnalysis/ElectronTools
+>> Entering Package RecoBTag/Configuration
+>> Entering Package RecoBTag/ImpactParameter
+>> Entering Package RecoBTag/SecondaryVertex
+>> Entering Package RecoBTag/SoftLepton
+>> Entering Package EGamma/EGammaAnalysisTools
+>> Building shared library tmp/slc6_amd64_gcc472/src/RecoEgamma/EgammaTools/src/RecoEgammaEgammaTools/libRecoEgammaEgammaTools.so
+>> Leaving Package DataFormats/METReco
+>> Package DataFormats/METReco built
+>> Leaving Package DataFormats/PatCandidates
+>> Package DataFormats/PatCandidates built
+>> Leaving Package CMGTools/External
+>> Package CMGTools/External built
+>> Leaving Package RecoBTag/Configuration
+>> Package RecoBTag/Configuration built
+tmp/slc6_amd64_gcc472/src/RecoEgamma/EgammaTools/src/RecoEgammaEgammaTools/HoECalculator.o: file not recognized: File truncated
+collect2: error: ld returned 1 exit status
+>> Leaving Package DPGAnalysis/SiStripTools
+>> Package DPGAnalysis/SiStripTools built
+gmake: *** [tmp/slc6_amd64_gcc472/src/RecoEgamma/EgammaTools/src/RecoEgammaEgammaTools/libRecoEgammaEgammaTools.so] Error 1
+gmake: *** Waiting for unfinished jobs....
+gmake: *** [There are compilation/build errors. Please see the detail log above.] Error 2
